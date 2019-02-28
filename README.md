@@ -1,29 +1,29 @@
 # vue-storybook-sample
 
-## Project setup
-```
-yarn install
+## 前提
+
+```bash
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
+## セットアップ手順
+
+```bash
+yarn
 ```
 
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
+### 普通に起動する場合
+```bash
+yarn serve
 ```
 
-### Lints and fixes files
-```
-yarn run lint
+### storybookを起動する場合
+```bash
+yarn storybook:serve
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 参考情報
+
+- MyButtonを参考にしました
+  - https://blog.zuckey17.org/entry/2018/02/22/100000
+- `vue add storybook`でstorybookに必要なものをインストールした
+  - https://github.com/storybooks/vue-cli-plugin-storybook
