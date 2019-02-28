@@ -15,10 +15,10 @@
     "babel-loader": "^8.0.5",
     "babel-preset-vue": "^2.0.2",
     "init": "^0.1.2",
+    "lodash": ">=4.17.11",
     "sb": "^0.2.1",
     "vue": "^2.6.6",
-    "vue-loader": "^15.6.4",
-    "lodash": ">=4.17.11"
+    "vue-loader": "^15.6.4"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^4.1.0",
